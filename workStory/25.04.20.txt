@@ -1,0 +1,21 @@
+***Statements,Syntex,variables***
+
+first-name, last-name, master-card, inter-city.
+Hyphens are not allowed in JavaScript. They are reserved for subtractions
+
+Underscore:
+	first_name, last_name, master_card, inter_city.
+Upper Camel Case (Pascal Case):
+	FirstName, LastName, MasterCard, InterCity.
+Lower Camel Case:
+	firstName, lastName, masterCard, interCity
+
+**Comments***
+var x = 5;   // I will be executed
+    // var x = 6;   I will NOT be executed
+
+***String ***
+1.string concatnate 
+2.string index
+3.string slice
+4.string to uppercase and lowercase
