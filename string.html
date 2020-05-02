@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> String</title>
+</head>
+<body>
+    
+    <script>
+        var firstName,lastName,fullName,len,name,x,text,s;
+        firstName ="Nur";
+        lastName = " Alam";
+        fullName = firstName + lastName;
+        text = firstName.concat(lastName);//string concatnate
+        len = fullName.length;//string length
+        //name = prompt("Enter your Name :")
+        x = fullName.toUpperCase();//string uppercase
+        y = fullName.toLowerCase();//string lowercase
+        s = text.slice(2,7);
+
+        document.write(fullName +"<br/>");
+        document.write("My name is "+fullName +"<br/>");
+        document.write(fullName + " is my Name <br/>");
+
+        //string library function
+        document.write("Number of character in Nur Alam is ="+len +"<br/>");
+        document.write("Number of character you entered ="+name.length +"<br/>");
+        document.write("Character at index 2 ="+firstName.charAt(2) +"<br/>");
+        document.write(x +"<br/>");
+        document.write(y +"<br/>");
+        document.write(text +"<br/>");
+        document.write(s);
+
+
+
+    </script>
+</body>
+</html>
