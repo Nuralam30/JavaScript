@@ -1,0 +1,10 @@
+***Objects***
+
+var car = {type:"Fiat", model:"500", color:"white"};//creating objects
+
+document.getElementById("car").innerHTML = "The car type is " 
++ car.color; //accessing object properties
+{2 ways :
+	objectName.propertyName (Example: person.lastName;)
+	objectName["propertyName"](Example: person["lastName"];)
+}
