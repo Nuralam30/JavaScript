@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>function</title>
+</head>
+<body>
+    
+    <script>
+        //creating a function
+        function addition()
+        {
+            var num1 = 20;
+            var num2 = 10;
+            result = num1 + num2;
+
+            document.write("Sum is =" +result +"<br/>");
+        }
+        addition();
+    </script>
+
+
+    <script>
+        //passing parameter to a function
+        function add(num1,num2)
+        {
+            result = num1 + num2;
+            document.write("Sum is =" +result +"<br/>");
+        }
+        add(30, 70);
+    </script>
+
+
+    <script>
+    //returning value from a function
+    function add(num1,num2)
+    {
+        result = num1 + num2;
+        return result;
+    }
+    document.write("The result is ="+ add(130, 70));
+</script>
+</body>
+</html>
