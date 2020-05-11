@@ -8,3 +8,39 @@ document.getElementById("car").innerHTML = "The car type is "
 	objectName.propertyName (Example: person.lastName;)
 	objectName["propertyName"](Example: person["lastName"];)
 }
+
+**Events onclick of button***
+<button onclick="document.getElementById('demo').innerHTML =Date()">
+         Click me to see date and time</button>
+
+
+***Numbers and Number methods***
+//toString method
+	var x = 123;
+	x.toString();
+
+//toExponential method
+	var x = 9.656;
+	x.toExponential(2);
+
+//toFixed method
+	var x = 9.656;
+	x.toFixed(0);
+
+//toPrecision method
+	var x = 9.656;
+	x.toPrecision();        // returns 9.656
+	x.toPrecision(2);       // returns 9.7
+
+
+****Converting Variables to Numbers****
+There are 3 JavaScript methods that can be used to convert variables to numbers:
+
+>>The Number() method
+>>The parseInt() method
+>>The parseFloat() method
+
+
+***Array***
+1.showing output of array
+2. concatnate of array
