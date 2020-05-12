@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>arrayMethods</title>
+</head>
+<body>
+    
+ <script>
+     //shift(), unshift(), splice() method
+
+     var names = ["Nur", "Sajid", "Jim", "Sahab", "Rafia", "Tanjir"];
+     document.write(names +"<br/>");
+
+
+     //shift is opposite of pop
+     names.shift();
+     document.write(names +"<br/>");
+
+
+     //unshift is opposite of push
+     names.unshift("Sagor");
+     document.write(names +"<br/>");
+
+
+     //adding element using splice method
+     names.splice(2, 1, "Nur", "Arif");
+     document.write(names +"<br/>");
+
+
+     //removing elements using splice method
+     //names.splice(2,3);
+    // document.write(names +"<br/>");
+
+
+     //sort method sort all values alphabatically
+     var newNames = names.sort();
+     //names.reverse(); //for revers sort
+     document.write(names +"<br/>");
+
+
+     //sorting of number values
+     var num = [5, 35, 25, 20, 3];
+     num.sort(function(a,b){
+         return a-b;
+     });
+     document.write(num +"<br/>");
+
+ </script>
+</body>
+</html>
