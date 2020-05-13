@@ -1,0 +1,16 @@
+***Array methods***
+	//shift method
+	//unshift method
+	//splice method
+	//sort method
+
+**Object***
+	//creating object
+	//printing value from object
+	//creating constructor
+	//creating functon inside constructor
+**Guessing game using random number genarate***
+//html DOM by js
+//html events
+//ludu game
+//guessing game
