@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>eventListener2</title>
+</head>
+<body>
+
+    <h2> Bangladesh is a beautiful country </h2>
+
+    <button class="myButton"> Button 1</button>
+    <button class="myButton"> Button 2</button>
+    <button class="myButton"> Button 3</button>
+
+    <script>
+        //event listener 2
+
+        var len = document.querySelectorAll(".myButton").length;
+
+        for(var i=0; i<len; i++){
+            document.querySelectorAll(".myButton")[i].addEventListener("click", function(){
+            var text = this.innerHTML;
+            document.querySelector("h2").innerHTML = text + " is clicked";
+        });
+        }
+        
+
+    </script>
+</body>
+</html>
